@@ -50,12 +50,11 @@ public class LoginService {
                 return u;
             }
         }
-
         System.out.println("Wrong username or password");
         return null;
     }
 
-    // Save users to file
+    // Save users to file system
     public void update() {
         saveUsers();
     }
